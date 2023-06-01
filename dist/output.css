@@ -663,6 +663,15 @@ video {
   clear: none;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -766,8 +775,44 @@ video {
   display: none;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.min-h-\[250p\] {
+  min-height: 250p;
+}
+
+.w-\[78\%\] {
+  width: 78%;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .flex-shrink {
@@ -1711,14 +1756,78 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-orange-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
-}
-
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+}
+
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\.\/images\/pumasiteimage\.webp\)\] {
+  background-image: url(./images/pumasiteimage.webp);
+}
+
+.bg-\[url\(\.\/images\/bg\.webp\)\] {
+  background-image: url(./images/bg.webp);
+}
+
+.bg-\[url\(\.\.\/images\/bg\.webp\)\] {
+  background-image: url(../images/bg.webp);
+}
+
+.from-\[green\] {
+  --tw-gradient-from: green var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 128 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-30\% {
+  --tw-gradient-from-position: 30%;
+}
+
+.to-\[white\] {
+  --tw-gradient-to: white var(--tw-gradient-to-position);
+}
+
+.to-30\% {
+  --tw-gradient-to-position: 30%;
 }
 
 .decoration-slice {
@@ -1831,13 +1940,48 @@ video {
      object-fit: scale-down;
 }
 
-.p-3 {
-  padding: 0.75rem;
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
 }
 
 .text-left {
@@ -1896,9 +2040,27 @@ video {
   vertical-align: super;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1980,6 +2142,21 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-\[red\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[blue\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 255 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2299,6 +2476,10 @@ video {
   content: var(--tw-content);
 }
 
+.image{
+  background-image: url(../images/football.jpg);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2335,8 +2516,22 @@ video {
   }
 }
 
+.hover\:border-b-2:hover {
+  border-bottom-width: 2px;
+}
+
+.hover\:border-orange-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity));
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
+}
+
+.hover\:text-gray-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .before\:hover\:text-center:hover::before {
