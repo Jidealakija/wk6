@@ -2054,10 +2054,6 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-11 {
-  padding-top: 2.75rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -2288,27 +2284,7 @@ video {
   -moz-osx-font-smoothing: auto;
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-5 {
-  opacity: 0.05;
-}
-
 .opacity-100 {
-  opacity: 1;
-}
-
-.opacity-\[\.5\] {
-  opacity: .5;
-}
-
-.opacity-\[\.8\] {
-  opacity: .8;
-}
-
-.opacity-\[1\] {
   opacity: 1;
 }
 
