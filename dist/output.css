@@ -632,12 +632,20 @@ video {
   inset-inline-end: 0.25rem;
 }
 
+.right-10 {
+  right: 2.5rem;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
+}
+
+.row-span-3 {
+  grid-row: span 3 / span 3;
 }
 
 .float-right {
@@ -788,6 +796,10 @@ video {
   height: 6rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-80 {
   height: 20rem;
 }
@@ -812,12 +824,12 @@ video {
   width: 3rem;
 }
 
-.w-\[78\%\] {
-  width: 78%;
+.w-6 {
+  width: 1.5rem;
 }
 
-.w-screen {
-  width: 100vw;
+.w-\[78\%\] {
+  width: 78%;
 }
 
 .flex-shrink {
@@ -884,6 +896,10 @@ video {
 
 .transform-none {
   transform: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .touch-auto {
@@ -1815,6 +1831,10 @@ video {
 .bg-yellow-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+}
+
+.bg-inherit {
+  background-color: inherit;
 }
 
 .bg-\[url\(\.\.\/images\/bg\.webp\)\] {
